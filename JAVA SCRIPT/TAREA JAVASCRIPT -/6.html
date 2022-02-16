@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script>
+            function elevarXNumerosPares() 
+            {
+                var contador = 0;
+                numMax = parseInt(prompt("Introduce el numero de pares a sacar"));
+                
+
+                for (i=1;contador<numMax;i++)
+                {
+                    if (i%2==0)
+                    { 
+                        alert(i**2); 
+                        contador++;
+                    }
+                }
+                
+            }
+
+        </script>
+
+    </head>
+
+        <body>
+            <input type="button" value="Potencias" onClick="elevarXNumerosPares();">
+        </body>
+
+</html>

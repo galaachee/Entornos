@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script>
+            function escribirNumerosImpares()
+            {
+                var contadorVeces = 0;
+                numUsu = parseInt(prompt("Introduce un numero"));
+                var contadorNums = numUsu;
+                numVeces = parseInt(prompt("Cuántos numeros impares siguientes quiere recibir"));
+
+                while (contadorVeces<numVeces)
+                {
+                    contadorNums++;
+                    if (contadorNums%2==0)
+                    {
+                        
+                    }
+                    else
+                    {
+                        alert(contadorNums); 
+                        contadorVeces++;
+                    }
+                }
+            }    
+
+        </script>
+
+    </head>
+
+        <body>    
+            <input type="button" value="NumImpares" onClick="escribirNumerosImpares();">
+        </body>
+
+</html>
